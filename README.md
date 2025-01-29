@@ -1,23 +1,3 @@
-# ML-Project-Car-Price-Prediction
-Overview
-This project aims to predict the selling price of a used car based on various features such as brand, year sold, present price, etc. Using machine learning regression models, we analyze patterns in the dataset to provide accurate price predictions for new car data.
+# ML-Project-Car-Price-Prediction 
 
-Dataset
-The dataset used in this project is sourced from Kaggle and includes the following features:
-
-Car Brand
-Year Sold
-Present Price
-Other relevant attributes
-Workflow
-Data Collection – Importing the dataset from Kaggle.
-Data Preprocessing – Handling missing values, feature selection, and scaling.
-Train-Test Split – Dividing the dataset into training and testing sets.
-Model Training – Implementing and training Linear Regression and Lasso Regression models.
-Model Evaluation – Comparing the accuracy of both models to determine the better-performing one.
-Prediction – Using the trained model to predict the price of a used car based on new input data.
-Algorithms Used
-Linear Regression
-Lasso Regression
-Results
-The models' accuracy is compared to determine the best fit for car price prediction.
+This project aims to predict the selling price of a used car based on various features such as car brand, year sold, present price, and other relevant attributes. The dataset is sourced from Kaggle and is preprocessed to handle missing values, scale numerical features, and prepare it for model training. The dataset is then split into training and testing sets to ensure a fair evaluation of the model's performance. Two machine learning algorithms, **Linear Regression** and **Lasso Regression**, are implemented to train the model and identify patterns in the data. Once trained, the model can predict the estimated price of a used car when provided with new input data. The accuracy of both models is compared to determine the most effective one for price prediction. This project demonstrates the application of regression techniques in machine learning and provides insights into how data-driven approaches can be used for price estimation in the automotive industry.
